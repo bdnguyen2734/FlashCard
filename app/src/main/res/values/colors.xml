@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Màu mặc định (Giữ lại cho tương thích) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Màu Lexilize -->
+    <color name="material_dynamic_neutral90">#E0E0E0</color>
+    <color name="lex_green">#4CAF00</color> <!-- Nút chọn xanh -->
+    <color name="lex_light_green">#DFF0C8</color> <!-- Progress bg -->
+    <color name="card_bg">#FFFFFF</color>
+    <color name="screen_bg">#F6F6F6</color>
+    <color name="option_text">#000000</color>
+    <color name="progress_track">#E6F2D1</color>
+    <color name="progress_primary">#6CC34A</color>
+    <color name="card_dot">#DDDDDD</color>
+
+    <!-- Đồng bộ hóa với code cũ -->
+    <color name="app_bar_blue">#547C96</color>
+    <color name="bg_screen">@color/screen_bg</color>
+    <color name="text_primary">@color/option_text</color>
+    <color name="text_secondary">#757575</color>
+    <color name="progress_green">@color/lex_green</color>
+    <color name="primary_blue">@color/app_bar_blue</color>
+    <color name="bg_gray">@color/screen_bg</color>
+    <color name="divider_color">#EEEEEE</color>
+    <color name="progress_bg">#E0E0E0</color>
+</resources>

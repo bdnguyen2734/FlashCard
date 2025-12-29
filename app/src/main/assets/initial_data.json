@@ -1,0 +1,367 @@
+{
+  "Động vật": [
+    {
+      "word": "cat",
+      "phonetic": "/kæt/",
+      "definition": "A small animal with fur, four legs, and a tail that is kept as a pet.",
+      "example": "The cat is sleeping on the sofa.",
+      "vietnamese": "con mèo"
+    },
+    {
+      "word": "dog",
+      "phonetic": "/dɒɡ/",
+      "definition": "A common animal with four legs, often kept as a pet.",
+      "example": "The dog is very friendly.",
+      "vietnamese": "con chó"
+    },
+    {
+      "word": "cow",
+      "phonetic": "/kaʊ/",
+      "definition": "A large animal kept on farms for milk or meat.",
+      "example": "The cow is eating grass.",
+      "vietnamese": "con bò"
+    },
+    {
+      "word": "pig",
+      "phonetic": "/pɪɡ/",
+      "definition": "A farm animal with a short tail and pink skin.",
+      "example": "The pig is very fat.",
+      "vietnamese": "con lợn"
+    },
+    {
+      "word": "chicken",
+      "phonetic": "/ˈtʃɪk.ɪn/",
+      "definition": "A bird kept on farms for eggs or meat.",
+      "example": "The chicken lays eggs.",
+      "vietnamese": "con gà"
+    },
+    {
+      "word": "rabbit",
+      "phonetic": "/ˈræb.ɪt/",
+      "definition": "A small animal with long ears and soft fur.",
+      "example": "The rabbit is eating a carrot.",
+      "vietnamese": "con thỏ"
+    },
+    {
+      "word": "horse",
+      "phonetic": "/hɔːs/",
+      "definition": "A large animal used for riding or pulling carts.",
+      "example": "The horse runs very fast.",
+      "vietnamese": "con ngựa"
+    },
+    {
+      "word": "duck",
+      "phonetic": "/dʌk/",
+      "definition": "A water bird with a flat beak.",
+      "example": "The duck is swimming in the lake.",
+      "vietnamese": "con vịt"
+    },
+    {
+      "word": "fish",
+      "phonetic": "/fɪʃ/",
+      "definition": "An animal that lives in water and swims using fins.",
+      "example": "The fish swims in the tank.",
+      "vietnamese": "con cá"
+    },
+    {
+      "word": "elephant",
+      "phonetic": "/ˈel.ɪ.fənt/",
+      "definition": "A very large animal with a long trunk.",
+      "example": "The elephant is very big.",
+      "vietnamese": "con voi"
+    }
+  ],
+
+  "Trái cây": [
+    {
+      "word": "apple",
+      "phonetic": "/ˈæp.əl/",
+      "definition": "A round fruit with red or green skin.",
+      "example": "I eat an apple every day.",
+      "vietnamese": "quả táo"
+    },
+    {
+      "word": "coconut",
+      "phonetic": "/ˈkəʊ.kə.nʌt/",
+      "definition": "A large tropical fruit with a hard shell and white flesh inside.",
+      "example": "Coconut water is very refreshing.",
+      "vietnamese": "quả dừa"
+    },
+
+    {
+      "word": "papaya",
+      "phonetic": "/pəˈpaɪ.ə/",
+      "definition": "A large tropical fruit with orange flesh and black seeds.",
+      "example": "Papaya is good for digestion.",
+      "vietnamese": "quả đu đủ"
+    },
+    {
+      "word": "mango",
+      "phonetic": "/ˈmæŋ.ɡəʊ/",
+      "definition": "A tropical fruit with yellow flesh.",
+      "example": "The mango is sweet.",
+      "vietnamese": "quả xoài"
+    },
+    {
+      "word": "grape",
+      "phonetic": "/ɡreɪp/",
+      "definition": "A small round fruit that grows in bunches.",
+      "example": "She eats green grapes.",
+      "vietnamese": "quả nho"
+    },
+    {
+      "word": "pear",
+      "phonetic": "/peər/",
+      "definition": "A sweet fruit with a thin top and round bottom.",
+      "example": "This pear is juicy.",
+      "vietnamese": "quả lê"
+    },
+    {
+      "word": "pineapple",
+      "phonetic": "/ˈpaɪnˌæp.əl/",
+      "definition": "A tropical fruit with rough skin and sweet flesh.",
+      "example": "Pineapple tastes great.",
+      "vietnamese": "quả dứa"
+    },
+    {
+      "word": "watermelon",
+      "phonetic": "/ˈwɔː.təˌmel.ən/",
+      "definition": "A large fruit with green skin and red flesh.",
+      "example": "Watermelon is refreshing.",
+      "vietnamese": "quả dưa hấu"
+    },
+    {
+      "word": "strawberry",
+      "phonetic": "/ˈstrɔː.bər.i/",
+      "definition": "A small red fruit with seeds on the outside.",
+      "example": "She likes strawberries.",
+      "vietnamese": "quả dâu tây"
+    },
+    {
+      "word": "lemon",
+      "phonetic": "/ˈlem.ən/",
+      "definition": "A yellow sour fruit.",
+      "example": "Lemon is very sour.",
+      "vietnamese": "quả chanh"
+    }
+  ],
+
+  "Đồ vật": [
+    {
+      "word": "chair",
+      "phonetic": "/tʃeər/",
+      "definition": "A piece of furniture for sitting.",
+      "example": "Sit on the chair.",
+      "vietnamese": "cái ghế"
+    },
+    {
+      "word": "table",
+      "phonetic": "/ˈteɪ.bəl/",
+      "definition": "A piece of furniture with a flat top.",
+      "example": "The book is on the table.",
+      "vietnamese": "cái bàn"
+    },
+    {
+      "word": "bed",
+      "phonetic": "/bed/",
+      "definition": "A piece of furniture for sleeping.",
+      "example": "I go to bed at 10 PM.",
+      "vietnamese": "cái giường"
+    },
+    {
+      "word": "lamp",
+      "phonetic": "/læmp/",
+      "definition": "A device for giving light.",
+      "example": "Turn on the lamp.",
+      "vietnamese": "cái đèn"
+    },
+    {
+      "word": "clock",
+      "phonetic": "/klɒk/",
+      "definition": "A device that shows time.",
+      "example": "The clock shows 8 o'clock.",
+      "vietnamese": "cái đồng hồ"
+    },
+    {
+      "word": "phone",
+      "phonetic": "/fəʊn/",
+      "definition": "A device used to call people.",
+      "example": "My phone is ringing.",
+      "vietnamese": "điện thoại"
+    },
+    {
+      "word": "television",
+      "phonetic": "/ˈtel.ɪ.vɪʒ.ən/",
+      "definition": "A device used to watch programs.",
+      "example": "I watch TV at night.",
+      "vietnamese": "cái tivi"
+    },
+    {
+      "word": "bag",
+      "phonetic": "/bæɡ/",
+      "definition": "A container for carrying things.",
+      "example": "My bag is heavy.",
+      "vietnamese": "cái cặp"
+    },
+    {
+      "word": "bottle",
+      "phonetic": "/ˈbɒt.əl/",
+      "definition": "A container for liquids.",
+      "example": "The bottle is full.",
+      "vietnamese": "cái chai"
+    },
+    {
+      "word": "key",
+      "phonetic": "/kiː/",
+      "definition": "A small object used to open locks.",
+      "example": "I lost my key.",
+      "vietnamese": "chìa khóa"
+    }
+  ],
+
+  "Phương tiện giao thông": [
+    {
+      "word": "car",
+      "phonetic": "/kɑːr/",
+      "definition": "A road vehicle with four wheels.",
+      "example": "The car is new.",
+      "vietnamese": "xe ô tô"
+    },
+    {
+      "word": "bus",
+      "phonetic": "/bʌs/",
+      "definition": "A large vehicle for many passengers.",
+      "example": "I go to school by bus.",
+      "vietnamese": "xe buýt"
+    },
+    {
+      "word": "bike",
+      "phonetic": "/baɪk/",
+      "definition": "A vehicle with two wheels.",
+      "example": "He rides a bike.",
+      "vietnamese": "xe đạp"
+    },
+    {
+      "word": "motorbike",
+      "phonetic": "/ˈməʊ.tə.baɪk/",
+      "definition": "A two-wheeled motor vehicle.",
+      "example": "She rides a motorbike.",
+      "vietnamese": "xe máy"
+    },
+    {
+      "word": "train",
+      "phonetic": "/treɪn/",
+      "definition": "A vehicle that runs on rails.",
+      "example": "The train arrives at noon.",
+      "vietnamese": "tàu hỏa"
+    },
+    {
+      "word": "plane",
+      "phonetic": "/pleɪn/",
+      "definition": "A flying vehicle with wings.",
+      "example": "The plane is flying.",
+      "vietnamese": "máy bay"
+    },
+    {
+      "word": "boat",
+      "phonetic": "/bəʊt/",
+      "definition": "A small vehicle that travels on water.",
+      "example": "The boat is on the river.",
+      "vietnamese": "thuyền"
+    },
+    {
+      "word": "ship",
+      "phonetic": "/ʃɪp/",
+      "definition": "A large boat for traveling by sea.",
+      "example": "The ship is very big.",
+      "vietnamese": "tàu thủy"
+    },
+    {
+      "word": "truck",
+      "phonetic": "/trʌk/",
+      "definition": "A large vehicle for carrying goods.",
+      "example": "The truck carries food.",
+      "vietnamese": "xe tải"
+    },
+    {
+      "word": "bicycle",
+      "phonetic": "/ˈbaɪ.sɪ.kəl/",
+      "definition": "A vehicle with two wheels powered by pedals.",
+      "example": "She has a new bicycle.",
+      "vietnamese": "xe đạp"
+    }
+  ],
+
+  "Đồ dùng học tập": [
+    {
+      "word": "book",
+      "phonetic": "/bʊk/",
+      "definition": "A set of written or printed pages.",
+      "example": "I read a book.",
+      "vietnamese": "quyển sách"
+    },
+    {
+      "word": "pen",
+      "phonetic": "/pen/",
+      "definition": "An object used for writing with ink.",
+      "example": "I write with a pen.",
+      "vietnamese": "bút mực"
+    },
+    {
+      "word": "pencil",
+      "phonetic": "/ˈpen.səl/",
+      "definition": "An object used for writing or drawing.",
+      "example": "The pencil is sharp.",
+      "vietnamese": "bút chì"
+    },
+    {
+      "word": "eraser",
+      "phonetic": "/ɪˈreɪ.zər/",
+      "definition": "An object used to remove pencil marks.",
+      "example": "Use an eraser.",
+      "vietnamese": "cục tẩy"
+    },
+    {
+      "word": "ruler",
+      "phonetic": "/ˈruː.lər/",
+      "definition": "A tool for drawing straight lines.",
+      "example": "Draw a line with a ruler.",
+      "vietnamese": "thước kẻ"
+    },
+    {
+      "word": "notebook",
+      "phonetic": "/ˈnəʊt.bʊk/",
+      "definition": "A book of blank pages for writing.",
+      "example": "I write in my notebook.",
+      "vietnamese": "vở"
+    },
+    {
+      "word": "schoolbag",
+      "phonetic": "/ˈskuːl.bæɡ/",
+      "definition": "A bag used to carry school items.",
+      "example": "My schoolbag is heavy.",
+      "vietnamese": "cặp sách"
+    },
+    {
+      "word": "calculator",
+      "phonetic": "/ˈkæl.kjə.leɪ.tər/",
+      "definition": "A device used for calculation.",
+      "example": "Use a calculator.",
+      "vietnamese": "máy tính cầm tay"
+    },
+    {
+      "word": "marker",
+      "phonetic": "/ˈmɑː.kər/",
+      "definition": "A pen with thick ink.",
+      "example": "The marker is blue.",
+      "vietnamese": "bút lông"
+    },
+    {
+      "word": "glue",
+      "phonetic": "/ɡluː/",
+      "definition": "A sticky substance used to join things.",
+      "example": "Use glue to fix paper.",
+      "vietnamese": "keo dán"
+    }
+  ]
+}
