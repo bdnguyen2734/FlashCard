@@ -35,7 +35,7 @@ dependencies {
     implementation("com.google.android.gms:play-services-auth:20.7.0")
     // Thư viện kết nối mạng (OkHttp)
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
-// Thư viện xử lý JSON (Gson) - Bạn có thể đã có rồi
+// Thư viện xử lý JSON (Gson)
     implementation("com.google.code.gson:gson:2.10.1")
 // Thư viện tải ảnh (Glide) - Để hiển thị ảnh từ URL
     implementation("com.github.bumptech.glide:glide:4.16.0")

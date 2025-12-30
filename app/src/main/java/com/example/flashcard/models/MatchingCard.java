@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.models;
 
 // Lớp này giúp theo dõi từng thẻ trong trò chơi Ghép đôi
 public class MatchingCard {

@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,6 +11,11 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.flashcard.R;
+import com.example.flashcard.models.Word;
+import com.example.flashcard.data.DataManager;
+
 import java.util.List;
 
 public class WordAdapter extends RecyclerView.Adapter<WordAdapter.WordViewHolder> {

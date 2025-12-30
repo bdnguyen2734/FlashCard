@@ -1,9 +1,15 @@
-package com.example.flashcard;
+package com.example.flashcard.ui.library;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
+
+import com.example.flashcard.models.Category;
+import com.example.flashcard.adapters.CategoryAdapter;
+import com.example.flashcard.R;
+import com.example.flashcard.data.DataManager;
+
 import java.util.List;
 
 public class CategoryListActivity extends AppCompatActivity {

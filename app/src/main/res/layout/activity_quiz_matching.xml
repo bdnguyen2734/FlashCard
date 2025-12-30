@@ -6,7 +6,7 @@
     android:background="#FAFAFA"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".QuizMatchingActivity">
+    tools:context=".ui.quiz.QuizMatchingActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

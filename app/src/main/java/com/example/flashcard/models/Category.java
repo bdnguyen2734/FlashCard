@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.models;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.ui.library;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -15,6 +15,12 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.flashcard.models.Category;
+import com.example.flashcard.ui.practice.FlashcardActivity;
+import com.example.flashcard.R;
+import com.example.flashcard.models.Word;
+import com.example.flashcard.adapters.WordAdapter;
+import com.example.flashcard.data.DataManager;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;

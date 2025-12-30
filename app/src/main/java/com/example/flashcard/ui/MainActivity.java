@@ -1,9 +1,15 @@
-package com.example.flashcard;
+package com.example.flashcard.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.flashcard.models.Category;
+import com.example.flashcard.adapters.CategoryAdapter;
+import com.example.flashcard.R;
+import com.example.flashcard.models.Word;
+import com.example.flashcard.data.DataManager;
+import com.example.flashcard.ui.auth.LoginActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.textfield.TextInputEditText;
 

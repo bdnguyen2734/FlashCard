@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.data;
 
 import android.util.Log;
 import okhttp3.OkHttpClient;

@@ -1,12 +1,15 @@
-package com.example.flashcard;
+package com.example.flashcard.ui.auth;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.flashcard.R;
+import com.example.flashcard.data.DataManager;
+import com.example.flashcard.utils.InputValidator;
 import com.google.android.material.textfield.TextInputEditText;
 
 public class RegisterActivity extends AppCompatActivity {

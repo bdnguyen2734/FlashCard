@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.ui.practice;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -11,6 +11,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.bumptech.glide.Glide; // Đảm bảo đã import Glide
+import com.example.flashcard.R;
+import com.example.flashcard.models.Word;
+import com.example.flashcard.ui.quiz.QuizMatchingActivity;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;

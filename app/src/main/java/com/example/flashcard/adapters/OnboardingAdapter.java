@@ -1,9 +1,12 @@
-package com.example.flashcard;
+package com.example.flashcard.adapters;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
+
+import com.example.flashcard.R;
+import com.example.flashcard.ui.onboarding.OnboardingFragment;
 
 public class OnboardingAdapter extends FragmentStateAdapter {
 

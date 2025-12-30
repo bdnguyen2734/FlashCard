@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.models;
 
 import com.google.gson.annotations.SerializedName;
 import java.io.Serializable; // <--- QUAN TRỌNG: Import thư viện này

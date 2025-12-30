@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,13 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.flashcard.models.Category;
+import com.example.flashcard.R;
+import com.example.flashcard.models.Word;
+import com.example.flashcard.ui.library.WordListActivity;
+import com.example.flashcard.ui.practice.FlashcardActivity;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

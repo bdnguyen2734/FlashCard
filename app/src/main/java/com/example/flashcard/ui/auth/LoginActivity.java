@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.ui.auth;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,9 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.flashcard.ui.MainActivity;
+import com.example.flashcard.R;
+import com.example.flashcard.data.DataManager;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;

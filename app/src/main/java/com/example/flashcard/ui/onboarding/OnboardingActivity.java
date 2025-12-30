@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.ui.onboarding;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -6,6 +6,11 @@ import android.os.Bundle;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
+
+import com.example.flashcard.ui.MainActivity;
+import com.example.flashcard.adapters.OnboardingAdapter;
+import com.example.flashcard.R;
+import com.example.flashcard.ui.auth.LoginActivity;
 
 public class OnboardingActivity extends AppCompatActivity {
 

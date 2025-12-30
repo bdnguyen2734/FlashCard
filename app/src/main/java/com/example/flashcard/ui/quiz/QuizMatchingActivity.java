@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.ui.quiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -10,6 +10,9 @@ import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.bumptech.glide.Glide;
+import com.example.flashcard.models.MatchingCard;
+import com.example.flashcard.R;
+import com.example.flashcard.models.Word;
 
 import java.util.ArrayList;
 import java.util.Collections;

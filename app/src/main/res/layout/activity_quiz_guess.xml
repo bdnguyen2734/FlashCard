@@ -8,7 +8,7 @@
     android:padding="16dp"
     android:background="#FAFAFA"
     android:weightSum="3"
-    tools:context=".QuizGuessActivity">
+    tools:context=".ui.quiz.QuizGuessActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

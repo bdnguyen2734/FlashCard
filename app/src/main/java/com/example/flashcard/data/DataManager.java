@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.data;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,6 +7,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.example.flashcard.models.Category;
+import com.example.flashcard.models.Word;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

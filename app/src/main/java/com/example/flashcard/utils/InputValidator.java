@@ -1,4 +1,4 @@
-package com.example.flashcard;
+package com.example.flashcard.utils;
 
 import android.util.Patterns;
 import java.util.regex.Pattern;
