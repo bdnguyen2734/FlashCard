@@ -10,7 +10,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.bumptech.glide.Glide; // Đảm bảo đã import Glide
+
+import com.bumptech.glide.Glide;
 import com.example.flashcard.R;
 import com.example.flashcard.models.Word;
 import com.example.flashcard.ui.quiz.QuizMatchingActivity;
@@ -26,7 +27,7 @@ public class FlashcardActivity extends AppCompatActivity implements TextToSpeech
 
     // View Components
     private TextView categoryTitle, textEnglish, textPhonetic, textVietnamese, textProgress;
-    private ImageView imgIllustration; // Ảnh minh họa
+    private ImageView imgIllustration;
     private Button buttonPrev, buttonNext;
     private ImageButton btnSpeak;
     private TextToSpeech tts;
@@ -38,27 +39,30 @@ public class FlashcardActivity extends AppCompatActivity implements TextToSpeech
 
         tts = new TextToSpeech(this, this);
 
-        // Ánh xạ View
+        // 1. Ánh xạ View (Đã thêm textPhonetic)
         categoryTitle = findViewById(R.id.text_category_title);
         textEnglish = findViewById(R.id.text_word_english);
         textPhonetic = findViewById(R.id.text_word_phonetic);
         textVietnamese = findViewById(R.id.text_word_vietnamese);
-        imgIllustration = findViewById(R.id.img_word_illustration); // Ánh xạ ảnh
+        imgIllustration = findViewById(R.id.img_word_illustration);
         textProgress = findViewById(R.id.text_progress);
         buttonPrev = findViewById(R.id.button_prev);
         buttonNext = findViewById(R.id.button_next);
         btnSpeak = findViewById(R.id.btn_speak);
 
-        // Nhận dữ liệu
+        // 2. Nhận dữ liệu từ Intent
         wordList = (ArrayList<Word>) getIntent().getSerializableExtra("SESSION_WORDS");
         String catName = getIntent().getStringExtra("CATEGORY_NAME");
 
         if (wordList == null || wordList.isEmpty()) {
             Toast.makeText(this, "Lỗi dữ liệu!", Toast.LENGTH_SHORT).show();
-            finish(); return;
+            finish();
+            return;
         }
 
         categoryTitle.setText(catName + " (Học từ)");
+
+        // 3. Gán sự kiện click
         buttonPrev.setOnClickListener(v -> showPreviousWord());
         buttonNext.setOnClickListener(v -> showNextWord());
         btnSpeak.setOnClickListener(v -> speakCurrentWord());
@@ -82,27 +86,34 @@ public class FlashcardActivity extends AppCompatActivity implements TextToSpeech
     private void displayCurrentWord() {
         Word currentWord = wordList.get(currentIndex);
 
-        // 1. Hiển thị Text
+        // --- A. Hiển thị Text Tiếng Anh ---
         textEnglish.setText(currentWord.getEnglishWord());
-        textPhonetic.setText(currentWord.getPhonetic());
+        String phonetic = currentWord.getPhonetic();
+        if (phonetic != null && !phonetic.trim().isEmpty()) {
+            textPhonetic.setText(phonetic);
+            textPhonetic.setVisibility(View.VISIBLE); // Hiện
+        } else {
+            textPhonetic.setVisibility(View.GONE);    // Ẩn
+        }
+
+
         textVietnamese.setText(currentWord.getVietnameseMeaning());
         textProgress.setText((currentIndex + 1) + "/" + wordList.size());
 
-        // 2. Hiển thị Ảnh bằng Glide
+        // Hiển thị Ảnh bằng Glide
         String url = currentWord.getImageUrl();
         if (url != null && !url.isEmpty()) {
-            // Nếu có link ảnh thì hiện ImageView và tải ảnh
             imgIllustration.setVisibility(View.VISIBLE);
             Glide.with(this)
                     .load(url)
-                    .placeholder(R.drawable.ic_launcher_background) // Ảnh chờ
-                    .error(R.drawable.ic_launcher_background)       // Ảnh lỗi
+                    .placeholder(R.drawable.ic_launcher_background)
+                    .error(R.drawable.ic_launcher_background)
+                    .fitCenter() // Giúp ảnh hiển thị vừa vặn
                     .into(imgIllustration);
         } else {
             imgIllustration.setVisibility(View.GONE);
         }
     }
-
 
     private void showPreviousWord() {
         if (currentIndex > 0) {
@@ -127,7 +138,10 @@ public class FlashcardActivity extends AppCompatActivity implements TextToSpeech
 
     @Override
     protected void onDestroy() {
-        if (tts != null) { tts.stop(); tts.shutdown(); }
+        if (tts != null) {
+            tts.stop();
+            tts.shutdown();
+        }
         super.onDestroy();
     }
 }
